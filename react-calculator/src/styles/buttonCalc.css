@@ -1,0 +1,28 @@
+/* Css para os botões normais */
+.normalButton{
+    cursor: pointer;
+    border: none;
+    background: #1b1d21;
+    transition: background-color 0.2s ease;
+    color: white;
+    font-size: 2rem;
+    padding: 30% 10%;   
+}
+
+/* Css para os botões expandidos */
+.extendedButton{
+    cursor: pointer;
+    border: none;
+    background: #1b1d21;
+    transition: background-color 0.2s ease;
+    color: white;
+    grid-column: span 2;
+    font-size: 1.7rem;  
+}
+
+.normalButton:hover{
+    background-color: #80838a;
+}
+.extendedButton:hover{
+    background-color: #80838a;
+}

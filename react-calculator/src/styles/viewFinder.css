@@ -1,0 +1,11 @@
+/* Css do visor da calculadora */
+input{
+    width: 100%;
+    background: transparent;
+    color: white;
+    border: none;
+    padding: 1.5%;
+    text-align: right;
+    margin-bottom: 2%;
+    font-size: 2.3rem;
+}

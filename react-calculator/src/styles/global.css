@@ -1,0 +1,51 @@
+/* Css de elementos que não correspondem a componentes */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.background{
+    background-color: #bcc5d6;
+    height: 100vh;
+    filter: saturate(120px);
+}
+
+.Calculator{
+    background: #393b40;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 4px;
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    max-height: 632px;
+    padding: 0.5% 0.7% ;
+    
+}
+.buttonsGrid{
+    display: grid;
+    grid-gap: 0.9%;
+    grid-template:repeat(5, 1fr)/ repeat(4, 1fr);
+
+}
+@media (max-width: 505px){
+    .Calculator{
+        width: 100%;
+        max-width: 410px;
+        height: 100%;
+        max-height: 565px;
+        
+    } 
+}
+
+@media (max-width: 413px){
+    .Calculator{
+        width: 100%;
+        max-width: 350px;
+        height: 100%;
+        max-height: 520px;
+        
+    } 
+}

@@ -1,0 +1,54 @@
+@keyframes go-back {
+    0% {
+        transform: translateY(600px);
+        
+    }
+    100% {
+        transform: translateX(0);
+  
+    }
+}
+
+#modal{
+    background-color: #22183af5;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: go-back 1.3s;
+    color: white;
+}
+#modal.hide{
+    display: none;
+    animation: go-back 1.3s;
+}
+
+#modal .content{
+    width: 100%;
+    max-width: 800px;
+}
+#modal .header{
+    display: flex;
+    justify-content: space-between;
+}
+#modal span{
+    font-size:300%;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1px;
+}
+#modal h1{
+    margin: 0 auto;
+    font-size: 2.5rem;
+    margin-bottom: 57px;
+}
+#modal ul{
+    list-style: none;
+}
+#modal ul li{
+    font-size: 1.7rem;
+    margin-bottom: 22%;
+}

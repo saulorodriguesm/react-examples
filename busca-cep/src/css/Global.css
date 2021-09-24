@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #e7e6f0;
+}
+
+
+.grid{
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 100px 0;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+
+    
+}
+@media(max-width:480px){
+    .grid{
+        flex-direction: column;
+        max-width:500px;
+    }
+}
+@media(max-width:474px){
+    .grid{
+        flex-direction: column;
+        max-width:350px;
+    }
+}
